@@ -1,0 +1,88 @@
+body{
+    font-family: 'Source sans Pro';
+    margin: 0;
+}
+.container
+{
+    display: flex;
+    width: 50%;
+    max-width: 600px;
+    min-width: 400px;
+    flex-direction: column;
+
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container img{
+    width: 40%;
+    object-fit: cover;
+}
+.form{
+    width: 50%;
+}
+.second{
+    display: block;
+    text-align: center;
+    background-image:url("../images/food.jpg"),linear-gradient(to left, #FF713B, #FFA51D);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    padding: 2em 1.5em;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #803853;
+    text-align: start;
+    text-shadow: 0.5px  0.5px rebeccapurple;
+    letter-spacing: 1px;
+    margin-bottom: 12em;
+}
+h2{
+    color: #803853;
+    font-size: 2rem;
+}
+input{
+    border-radius: 5px;
+    padding: 1em 2em;
+    text-align: center;
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 1em;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: #75f08e;
+    border: none;
+    color: #FF713B;
+    font-weight: 900;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    padding: .3em;
+    font-size: 1.5rem;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+h1{
+    font-family: inherit;
+    font-size: 2.3rem;
+    border-bottom: 5px solid pink;
+    color: #803853;
+}
