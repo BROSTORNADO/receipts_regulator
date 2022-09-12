@@ -21,7 +21,7 @@ function go(){
 let number_of_people = parseInt(inputEl.value)
 
  ulEl.innerHTML = `
-    
+    <p>Cream cheese : ${(number_of_people*67.5).toFixed(2)} pod</p> 
     <p>Whipping cream : ${(number_of_people*33.75).toFixed(2)} g</p>
     <p>Icing sugar : ${(number_of_people*16.875).toFixed(2)} g</p>
     <p>Whole eggs : ${(number_of_people*18.75).toFixed(2)} g</p>
