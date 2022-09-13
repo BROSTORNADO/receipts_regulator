@@ -36,7 +36,10 @@ body{
     text-align: start;
     text-shadow: 0.5px  0.5px rebeccapurple;
     letter-spacing: 1px;
-    margin-bottom: 12em;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-radius:10px;
+    animation: fadeVisibility 0.7s;
 }
 h2{
     color: #803853;
@@ -51,6 +54,7 @@ input{
     font-size: 1.5rem;
     font-weight: 900;
     color: #fff;
+    animation: fadeVisibility 0.7s;
 }
 .form{
     display: flex;
@@ -70,6 +74,7 @@ button{
     margin-bottom: 1em;
     cursor: pointer;
     text-transform: uppercase;
+    animation: fadeVisibility 0.7s;
 }
 a{
     text-decoration: none;
@@ -79,10 +84,22 @@ a{
     font-size: 1.5rem;
     margin-top: 1em;
     border-radius: 5px;
+    text-transform:uppercase;
 }
 h1{
     font-family: inherit;
     font-size: 2.3rem;
     border-bottom: 5px solid pink;
     color: #803853;
+}
+.hidden{
+display:none;
+}
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
